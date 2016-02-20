@@ -1,0 +1,37 @@
+.yt-vimeo {
+  overflow: hidden;
+  -webkit-box-shadow:  0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:  0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow:  0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.yt-vimeo.pull-none {
+  margin-bottom: 2em;
+}
+.yt-vimeo.pull-left {
+  margin: 0 1em 1em 0;
+}
+.yt-vimeo.pull-right {
+  margin: 0 0 1em 1em;
+}
+.yt-vimeo iframe {
+  border: none;
+  float: left;
+}
+.yt-responsive-media-yes {
+
+	position: relative;
+	
+
+}
+
+.yt-responsive-media-yes iframe,
+
+.yt-responsive-media-yes object,
+
+.yt-responsive-media-yes embed {
+
+	
+
+}
+.yt-vimeo { margin: 0 0 1.5em 0 }
+.yt-vimeo iframe { border: none !important }

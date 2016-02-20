@@ -1,0 +1,152 @@
+// Layout 1
+.home-layout1 {
+    #yt_menuwrap .container {width: 100%;}
+    div.sj-review {}
+    div.sj-trending {margin-top: 22px;}
+}
+// Layout 2
+.home-layout2{
+    #yt_top {
+        border-bottom: 1px solid #ddd;
+        background: #fff;
+    }
+    #yt_header {
+        padding: 20px 0;
+        background: #f8f8f8;
+        #yt_logo {
+            margin-top: 16px;
+            .logo img {width: auto !important; height: auto !important;}
+        }
+        #header-right {
+            text-align: right;
+            img:hover {.opacity(80);}
+        }
+    }
+    #yt_menuwrap {background: #fff;}
+    .fancy {background: transparent;}
+    #search {
+        .module {margin: 0;}
+    }
+    #meganavigator li.level1 {
+        > .item-link {padding: 13px 15px; color: #000;}
+        &.active > .item-link,
+        &.hover > .item-link{color: @linkColor;}
+    }
+    #mod-finder-searchform #mod-finder-searchword {margin: 15px 0;}
+    div.sj-trending .sj-meganew {padding: 0 30px;}
+    div.sj-trending .sj-meganew .meganew-wrap .meganew-box .meganew-box-inner .meganew-items.theme1 {
+        .item-first .item-title a {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .item-other .other-link li a.title {font-weight: bold;}
+    }
+    div.custom-plus ul.custom-link li {line-height: 36px;}
+    #mod-finder-searchform button.finder {top: 15px;}
+    #k2Container .itemList div#itemListLeading .catItemView h3.catItemTitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    #k2Container .itemList .catItemView .article-aside .article-info {margin-bottom: 0;}
+    div.sj-featured2 {
+        margin-bottom: 20px;
+        h3.modtitle {margin-bottom: 25px; margin-top: 6px;}
+    }
+    div.sj-about-me {margin-top: 20px;}
+}
+
+// Layout 3
+.home-layout3 {
+    #yt_sticky_top {display: block;}
+    #yt_sticky_right,#cpanel_wrapper,#yt-totop{display: none;}
+    #resmenu.slideout-menu {
+        display: block !important;
+    }
+    #yt_breadcrumb {border-bottom: none;}
+    #yt_menuwrap {
+        &.menu-fixed {
+            position: static;
+        }
+        
+        .container {
+            width: 100%;
+            padding: 0;
+            .row {
+                position: static;
+                margin: 0;
+                #yt_mainmenu  {
+                    position: absolute;
+                    z-index: 1;
+                    ul.navi {display: none;}
+                    
+                }
+                #yt_logo {
+                    right: 0;
+                    background: url(../images/bg_header.png) no-repeat center center #000;
+                    height: 659px;
+                    &:before, &:after {display: none;}
+                    .logo img {
+                        width: inherit !important;
+                        height: inherit !important;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+
+    }
+    #k2Container.itemListView {
+        .page-title {
+            color: #000;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+            text-transform: uppercase;
+            margin: 8px 0 28px;
+            &:before {
+                content: "";
+                border-top: 1px solid #f1f1f1;
+                position: absolute;
+                top: 9px;
+                left: 0;
+                width: 100%;
+            }
+            span.modtitle-inner {
+                padding: 0 20px;
+                background: #fff;
+                position: relative;
+            }
+        }
+        div.k2Pagination {text-align: center;}
+    }
+    
+}
+
+// Layout 4
+.home-layout4 {
+    div.sj-trending {margin-top: 22px;}
+    div.banner {margin-bottom: 40px;}
+    #yt_slideshow {margin-bottom: 20px;}
+    #yt_menuwrap .container {width: 100%;}
+    #yt_spotlight4 {background: #f3f3f3; padding-top: 20px; padding-bottom: 10px;}
+    div.sj-lifestyles {border: 0 none; padding: 0;margin-bottom: 40px; margin-top: 28px;}
+    div.top-news .k2ItemsBlock ul li {
+        margin-top: 20px;
+        .moduleItemCategory {
+        
+            margin-top: 10px;
+        }
+        .moduleItemTitle {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 22px;
+        }
+    }
+    div.sj-trending .sj-meganew .meganew-wrap .meganew-box .meganew-box-inner .meganew-items.theme1 .item-other .other-link li a {font-size: 13px;}
+}
